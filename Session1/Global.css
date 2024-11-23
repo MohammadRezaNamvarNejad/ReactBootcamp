@@ -1,0 +1,35 @@
+p {
+  color: blueviolet;
+  margin: 16px;
+  font-size: 13px;
+}
+table,
+th,
+td {
+  border: 0.5px solid rebeccapurple;
+  color: rebeccapurple;
+}
+div.mycontainer {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  gap: 20px;
+}
+div.mycontainer div {
+  width: 550px !important;
+  height: 250px;
+  margin: 0px 16px 16px 40px;
+  padding: 0px 16px 16px 40px;
+  border-radius: 6px;
+}
+div.imageWrapper {
+  width: 100%;
+  margin: auto;
+  margin: 0px 16px;
+}
+div.tableWrapper {
+  margin: 20px;
+}
