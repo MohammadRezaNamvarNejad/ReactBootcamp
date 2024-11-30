@@ -1,0 +1,108 @@
+div.container {
+  display: flex;
+  width: 1080px;
+  height: 650px;
+  margin: auto;
+  background-color: white;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+div.contentBox {
+  width: 50%;
+  padding: 80px;
+}
+div.imageBox {
+  width: 50%;
+}
+body {
+  background-color: gray;
+}
+p.heading {
+  font-size: 34px;
+  margin: 0;
+}
+p.subHeading {
+  margin: 0;
+  font-size: 14px;
+  color: #636364;
+}
+div.headingBox {
+  display: grid;
+}
+p {
+  font-size: 14px;
+  margin: 0;
+}
+input.inputField {
+  width: 314px;
+  height: 40px;
+  border-radius: 12px;
+  border: 0.5px solid #c4c4c4;
+  padding-left: 10px;
+}
+div.inputBox {
+  display: grid;
+  gap: 8px;
+}
+div.wrapper {
+  display: grid;
+  gap: 22px;
+  margin-top: 32px;
+}
+div.rememberMe {
+  display: flex;
+  justify-content: space-between;
+  width: 314px;
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+div.checkboxWrapper {
+  display: flex;
+  gap: 8px;
+  margin: 0;
+}
+button.signIn {
+  background-color: #ea454c;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  width: 314px;
+  height: 40px;
+}
+button.signUp {
+  width: 314px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 0.5px solid #c4c4c4;
+}
+div.buttonBox {
+  display: grid;
+  gap: 8px;
+}
+
+div.insideButton {
+  display: flex;
+  width: 100%;
+  gap: 8px;
+  justify-content: center;
+}
+div.insideButton p {
+  margin-top: 5px;
+}
+div.textWrapper {
+  display: flex;
+  margin-top: 16px;
+  gap: 8px;
+  justify-content: center;
+  width: 80%;
+}
+div.textWrapper p:first {
+  color: #595959;
+  font-size: 14px;
+}
+div.textWrapper p:last-child {
+  color: #ea454c;
+  font-size: 14px;
+}
