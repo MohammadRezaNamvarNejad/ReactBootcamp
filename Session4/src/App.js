@@ -1,11 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
-import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
+import { createContext } from "react";
 import { MainPage } from "./components/MainPage";
 
+export const UserNameVlue = createContext();
 export default function App() {
   return (
     // <BrowserRouter>
@@ -18,8 +14,8 @@ export default function App() {
     //     </Route>
     //   </Routes>
     // </BrowserRouter>
-    <>
+    <UserNameVlue.Provider value={{ name: "Mohammad", LastName: "Namvar" }}>
       <MainPage />
-    </>
+    </UserNameVlue.Provider>
   );
 }
