@@ -1,14 +1,8 @@
+import { PostListType } from "@/types/postListType";
 import { useEffect, useState } from "react";
-type Comment = {
-    body: string;
-    email: string;
-    id: number;
-    name: string;
-    postId: number;
-  };
-  
+
 type props = {
-  data: Array<Comment>;
+  data: Array<PostListType>;
   error: string;
 };
 const useFetchData = (endpoint) => {
