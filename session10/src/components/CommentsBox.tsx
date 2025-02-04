@@ -9,6 +9,7 @@ export const CommentsBox = ({ name, body }: props) => {
     <Box>
       <span>{name}</span>
       <li>{body}</li>
+      <li>{body}</li>
     </Box>
   );
 };
